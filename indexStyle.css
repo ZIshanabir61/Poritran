@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+
+body{
+  overflow-x: hidden; /* doesnt overfolw outside of the window*/
+  font-family: 'Poppins', sans-serif;
+  color: #505962;
+}
+
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem; /*1 rem = 16px*/
+  letter-spacing: .1rem;
+  background: #090A0A !important;
+}
+
+.navbar-brand img {
+  height: 3rem;
+  margin-left: 5%;
+}
+
+.navbar-nav li{
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
+  color: #C60021;
+}
+
+.caption {
+  width: 35%;
+  max-width: 100%;
+  position: absolute;
+  top: 42%;
+  left: 5%;
+  z-index: 1;
+  color: black;
+  text-transform: uppercase;
+}
+
+.caption h1{
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: .3rem;
+  padding-bottom: 2rem;
+}
+
+.btn-lg{
+  background:  #C60021;
+  color: white;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  text-shadow: .1rem .1rem .8rem black;
+  border-radius: .3rem;
+}
+
+
+.btn-lg:hover{
+  color: white;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  text-shadow: .1rem .1rem .8rem black;
+  border-radius: .3rem;
+  background:  #97011A;
+}
+
+.aboutUs{
+  position: relative;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/aboutus.png);
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+
+.home-inner {
+  position: relative;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/landingpage.png);
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+
+.aboutusText{
+  color: white;
+  margin-top: 2rem;
+}
+
+.aboutusHeader{
+  color: #C60021;
+  margin-top: 20%;
+}
+
+.features{
+  padding: 10%;
+}
+
+.featureText{
+  color: black;
+  padding-left: 10%;
+    font-weight: 400;
+}
+
+.featureP{
+  padding-top: 1rem;
+}
+
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+  width: auto;
+}
+
+footer{
+  background-color: rgba(9, 10, 10, 0.9);
+  color: white;
+  padding: 2rem 0 4rem;
+  margin-top: 1rem;
+}
+footer img{
+  height:  3rem;
+  margin: 1.5rem 2rem;
+
+}
+
+.contact{
+  margin-top: 3rem;
+}
+
+
+
+
+/*
+Extra small(xs) devices (potrait phones, less than 576px)
+no media query since this is the default in bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px){...}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px){...}
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px){...}
+
+Extra large (xl) devices (large desktops, 1200px and up)
+@media (min-width: 1200px){...}
+*/
